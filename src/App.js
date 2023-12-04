@@ -1,12 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">helloo</div>
-      <span>
-        This project was coded by SheCodes and is <a>open-sourced on GitHub</a>
+      <div className="container">
+        <Search />
+      </div>
+      <span className="source">
+        This project was coded by Zahra Khedri and is {""}
+        <a href="https://github.com/Zahrakhedri/react-weather-search">
+          open-sourced on GitHub
+        </a>
       </span>
     </div>
   );

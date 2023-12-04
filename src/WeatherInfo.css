@@ -1,0 +1,11 @@
+.WeatherInfo h1 {
+  margin-left: 30px;
+}
+
+.WeatherInfo ul {
+  list-style: none;
+}
+
+.WeatherInfo .temperature {
+  text-align: center;
+}

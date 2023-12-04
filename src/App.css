@@ -1,7 +1,24 @@
+.App {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  color: #a9a6b3;
+}
+
 .container {
-  border: 2px solid rgb(189, 187, 187);
+  border: 2px solid white;
+  border-radius: 12px;
   max-width: 600px;
   margin: 0 auto;
   margin-top: 80px;
   padding: 40px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.source {
+  margin-left: 480px;
+  font-size: 12px;
+}
+
+a {
+  color: #885df1;
 }
