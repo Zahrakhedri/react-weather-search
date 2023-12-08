@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Search />
+        <Search defaultCity="Paris" />
       </div>
       <span className="source">
         This project was coded by Zahra Khedri and is {""}
