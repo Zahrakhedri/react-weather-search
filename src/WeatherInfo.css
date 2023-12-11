@@ -11,15 +11,15 @@
 }
 
 .WeatherInfo .temperature {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: bold;
   color: #885df1;
 }
 
 .WeatherInfo .temperature .units {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: lighter;
   position: relative;
-  top: -14px;
+  top: -18px;
   color: #a9a6b3;
 }
