@@ -14,6 +14,7 @@ export default function Search(props) {
   }
 
   function displayTemperature(response) {
+    console.log(response.data);
     setweatherData({
       ready: true,
       temperature: Math.round(response.data.main.temp),
@@ -21,6 +22,8 @@ export default function Search(props) {
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       cityName: response.data.name,
+      date: new Date(response.data.dt * 1000),
+      icon: response.data.weather[0].icon,
     });
   }
 

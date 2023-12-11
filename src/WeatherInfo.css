@@ -6,6 +6,20 @@
   list-style: none;
 }
 
-.WeatherInfo .temperature {
+.WeatherInfo .tempIcon {
   text-align: center;
+}
+
+.WeatherInfo .temperature {
+  font-size: 36px;
+  font-weight: bold;
+  color: #885df1;
+}
+
+.WeatherInfo .temperature .units {
+  font-size: 16px;
+  font-weight: lighter;
+  position: relative;
+  top: -14px;
+  color: #a9a6b3;
 }
