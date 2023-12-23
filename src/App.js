@@ -9,7 +9,10 @@ function App() {
       </div>
       <span className="source">
         This project was coded by Zahra Khedri and is {""}
-        <a href="https://github.com/Zahrakhedri/react-weather-search">
+        <a
+          href="https://github.com/Zahrakhedri/react-weather-search"
+          target="blank"
+        >
           open-sourced on GitHub
         </a>
       </span>
