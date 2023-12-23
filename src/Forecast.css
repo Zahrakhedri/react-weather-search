@@ -1,0 +1,9 @@
+.Forecast {
+  text-align: center;
+}
+
+.Forecast .unit {
+  position: relative;
+  top: -5px;
+  font-size: 10px;
+}
